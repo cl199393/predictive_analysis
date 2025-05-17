@@ -31,7 +31,16 @@ xgboost
 DALEX
 caret
 ```
-Pyhton packages:
+Python packages:
 ```python
 pip install shap xgboost pandas scikit-learn matplotlib
 ```
+
+## Repository Structure
+├── code/
+│   ├── Feature_Importance.R           # R script for original model feature importance
+│   ├── Feature_Importance_transfer.R  # R script for transfer model analysis
+│   └── SHAP.ipynb                     # Jupyter notebook for SHAP analysis
+├── data/                              # Input datasets (e.g., original_outcome_data.csv)
+├── results/                           # Outputs, plots, and metrics
+├── README.md                          # Project documentation
