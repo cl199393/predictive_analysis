@@ -6,6 +6,9 @@ The goal of this project is to enhance exam preparation strategies by leveraging
 These R scripts analyze feature importance from machine learning models used in the project.
 ### 1. Run feature importance analysis on the base model:
 ```R
-source("Feature_Importance.R")
-source("Feature_Importance_transfer.R")
+source("code/Feature_Importance.R")
+source("code/Feature_Importance_transfer.R")
 
+### 2. Run SHAP analysis for the best performance model:
+```Python
+source("code/SHAP.ipynb")
