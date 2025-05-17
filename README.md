@@ -16,6 +16,10 @@ source("code/Feature_Importance_transfer.R")
 
 ### 2. Run SHAP analysis for the best performance model:
 This Jupyter notebook applies SHAP (SHapley Additive exPlanations) to visualize and interpret the most influential features in the best-performing model.
-```Python
+```python
 jupyter notebook code/SHAP.ipynb
 ```
+
+## Requirements
+```python
+pip install shap xgboost pandas scikit-learn matplotlib
