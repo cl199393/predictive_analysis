@@ -2,4 +2,6 @@
  
 The goal of this project is to enhance exam preparation strategies by leveraging isomorphic problem banks and explainable machine learning techniques.
 
-## Project Overview
+## Code Path
+├── Feature_Importance.R              # R script for computing feature importance using base model
+├── Feature_Importance_transfer.R     # R script for computing feature importance using transfer learning or an adapted model
