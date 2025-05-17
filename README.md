@@ -50,7 +50,7 @@ pip install shap xgboost pandas scikit-learn matplotlib
 ```
 
 ## Visualizations
-```markdown
+
 ### ROC Curves
 
 - **Figure 1(A):** ROC Curve – Original Model  
@@ -84,4 +84,4 @@ pip install shap xgboost pandas scikit-learn matplotlib
 
 - **Figure 4(B):** SHAP Force Plot – Correct Fraction Feature  
   ![](results/correct_fraction_force.jpg)
-```
+
