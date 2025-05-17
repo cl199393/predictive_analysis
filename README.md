@@ -4,7 +4,7 @@ The goal of this project is to enhance exam preparation strategies by leveraging
 
 ## Code Path
 These R scripts analyze feature importance from machine learning models used in the project.
-### 1. Run feature importance analysis on the base model:
+### 1. Run predictive analysis:
 ```R
 # Run feature importance analysis for the Original Problem
 source("code/Feature_Importance.R")
@@ -15,6 +15,7 @@ source("code/Feature_Importance_transfer.R")
 ```
 
 ### 2. Run SHAP analysis for the best performance model:
+This Jupyter notebook applies SHAP (SHapley Additive exPlanations) to visualize and interpret the most influential features in the best-performing model.
 ```Python
 jupyter notebook code/SHAP.ipynb
 ```
