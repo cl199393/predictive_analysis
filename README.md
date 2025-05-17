@@ -16,5 +16,5 @@ source("code/Feature_Importance_transfer.R")
 
 ### 2. Run SHAP analysis for the best performance model:
 ```Python
-source("code/SHAP.ipynb")
+jupyter notebook code/SHAP.ipynb
 ```
