@@ -42,6 +42,8 @@ pip install shap xgboost pandas scikit-learn matplotlib
 │   ├── Feature_Importance.R           # R script for original model feature importance
 │   ├── Feature_Importance_transfer.R  # R script for transfer model analysis
 │   └── SHAP.ipynb                     # Jupyter notebook for SHAP analysis
-├── data/                              # Input datasets (e.g., original_outcome_data.csv)
+├── data/
+│   ├── original_outcome_data.csv      # Main training dataset
+│   └── transfer_outcome_data.csv      # Dataset for transfer learning evaluation
 ├── results/                           # Outputs, plots, and metrics
 ├── README.md                          # Project documentation
