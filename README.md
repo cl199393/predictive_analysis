@@ -45,5 +45,43 @@ pip install shap xgboost pandas scikit-learn matplotlib
 ├── data/
 │   ├── original_outcome_data.csv      # Main training dataset
 │   └── transfer_outcome_data.csv      # Dataset for transfer learning evaluation
-├── results/                           # Outputs, plots, and metrics
+├── results/                           # plots
 ├── README.md                          # Project documentation
+```
+
+## Visualizations
+```markdown
+### ROC Curves
+
+- **Figure 1(A):** ROC Curve – Original Model  
+  ![](results/ROC_Original.jpg)
+
+- **Figure 1(B):** ROC Curve – Transfer Model  
+  ![](results/ROC_Transfer.jpg)
+
+---
+
+### Feature Importance (SHAP)
+
+- **Figure 2(A):** SHAP Feature Importance – Original Model  
+  ![](results/Feature_Importance_SHAP_Original.jpg)
+
+- **Figure 2(B):** SHAP Feature Importance – Transfer Model  
+  ![](results/Feature_Importance_SHAP_Transfer.jpg)
+
+---
+
+### SHAP Force Plots
+
+- **Figure 3(A):** SHAP Force Plot – Midterm Feature  
+  ![](results/midterm_force.jpg)
+
+- **Figure 3(B):** SHAP Force Plot – Practice Frequency Feature  
+  ![](results/nPractice_force.jpg)
+
+- **Figure 4(A):** SHAP Force Plot – Med-to-Exam Time Feature  
+  ![](results/med_to_exam_force.jpg)
+
+- **Figure 4(B):** SHAP Force Plot – Correct Fraction Feature  
+  ![](results/correct_fraction_force.jpg)
+```
