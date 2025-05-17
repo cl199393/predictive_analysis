@@ -3,8 +3,11 @@
 The goal of this project is to enhance exam preparation strategies by leveraging isomorphic problem banks and explainable machine learning techniques.
 
 ## Code Path
-These R scripts analyze feature importance from machine learning models used in the project.
-### 1. Run predictive analysis:
+This repository includes both R scripts and a Python notebook to support predictive modeling and model interpretability.
+
+### 1. Predictive Analysis in R
+These scripts perform feature importance analysis using machine learning models on both original and transfer problem settings.
+
 ```R
 # Run feature importance analysis for the Original Problem
 source("code/Feature_Importance.R")
@@ -14,12 +17,21 @@ source("code/Feature_Importance_transfer.R")
 
 ```
 
-### 2. Run SHAP analysis for the best performance model:
-This Jupyter notebook applies SHAP (SHapley Additive exPlanations) to visualize and interpret the most influential features in the best-performing model.
+### 2. SHAP-Based Explainability in Python
+This Jupyter notebook applies SHAP (SHapley Additive exPlanations) to visualize and interpret the most influential features in the best-performing machine learning model.
 ```python
 jupyter notebook code/SHAP.ipynb
 ```
 
 ## Requirements
+R packages:
+```R
+randomForest
+xgboost
+DALEX
+caret
+```
+Pyhton packages:
 ```python
 pip install shap xgboost pandas scikit-learn matplotlib
+```
