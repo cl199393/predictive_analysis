@@ -19,7 +19,7 @@ source("code/Feature_Importance_transfer.R")
 
 ### 2. SHAP-Based Explainability in Python
 This Jupyter notebook applies SHAP (SHapley Additive exPlanations) to visualize and interpret the most influential features in the best-performing machine learning model.
-```python
+```bash
 jupyter notebook code/SHAP.ipynb
 ```
 
@@ -32,7 +32,7 @@ DALEX
 caret
 ```
 Python packages:
-```python
+```bash
 pip install shap xgboost pandas scikit-learn matplotlib
 ```
 
