@@ -39,9 +39,12 @@ pip install shap xgboost pandas scikit-learn matplotlib
 ## Repository Structure
 ```bash
 ├── code/
-│   ├── Feature_Importance.R           # R script for original model feature importance
+│   ├── Feature_Importance.R           # R script for original model analysis
 │   ├── Feature_Importance_transfer.R  # R script for transfer model analysis
 │   └── SHAP.ipynb                     # Jupyter notebook for SHAP analysis
+├── data/
+│   ├── original_outcome_data.csv      # Dataset for original problems
+│   └── transfer_outcome_data.csv      # Dataset for transfer problems
 ├── results/                           # plots
 ├── README.md                          # Project documentation
 ```
